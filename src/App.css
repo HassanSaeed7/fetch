@@ -31,7 +31,7 @@ button:hover {
 }
 
 h1 {
-  font-size: clamp(2rem, 4rem, 5rem);
+  font-size: clamp(1rem, 5vmin, 5rem);
   margin: auto;
 }
 h2 {

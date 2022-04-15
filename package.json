@@ -1,20 +1,21 @@
-{
+{ "homepage": "https://hassansaeed7.github.io/fetch/",
   "name": "fetch",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "framer-motion": "^6.2.8",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-speech": "^1.0.2"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "vite": "^2.8.0"
   }
 }
